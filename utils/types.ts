@@ -6,3 +6,9 @@ export interface Donation {
   amount: number;
   time: string;
 }
+export interface donater {
+  firstName: string;
+  lastName: string;
+  email: string;
+  amount: string;
+}
